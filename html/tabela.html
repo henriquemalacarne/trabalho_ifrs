@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .imagem{
+            background: url(img/download.png) no-repeat;
+            width: 300px;
+            height: 155px;
+        }
+        .imagem_2{
+            background: url(img/images.jpg) no-repeat;
+            width: 300px;
+            height: 155px;
+        }
+        .imagem_3{
+            background: url(img/datascience.jpg) no-repeat;
+            width: 300px;
+            height: 155px;
+        }
+        .figure{
+           height: 160px;
+           width: 300px;
+
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="7">Cursos</th>
+            </tr>
+        </thead>
+        <thead>
+            <tr>
+                <th>Nível</th>
+                <th>Nome do Curso</th>
+                <th>Descrição</th>
+                <th>Carga Horária</th>
+                <th>Pré-requisitos</th>
+                <th>Link</th>
+                <th>Imagem</th>
+            </tr>    
+        </thead>
+        <tbody> 
+            <tr>
+                <td rowspan="2">Intermediario</td>
+                <td>Desenvolvimento Web com Python</td>
+                <td>Aprenda a criar sites e aplicações web com Python e Django</td>
+                <td>60 horas</td>
+                <td>Noções básicas de Python</td>
+                <td > <a href="https://python.org.br/web/">Clique aqui</a></td>
+                <td class="imagem"><figure><img src="/img/download.png"></figure></td>
+
+            </tr>
+            <tr>
+                <td>Data Science com R</td>
+                <td>Domine a analise de dados com R e crie visualizações incriveis</td>
+                <td>40 horas</td>
+                <td>Noções básicas de estatística</td>
+                <td><a href="https://r4ds.had.co.nz/"> Clique aqui</a></td>
+                <td class="imagem_2"> <figure><img src="/img/images.jpg" ></figure> </td>
+            </tr>
+            <tr>
+                <td>AvançadO</td>
+                <td>Machine Learning com Python</td>
+                <td>Aprenda os principais algoritimos de Machine Learning e como aplicá-los em seus projets</td>
+                <td>50 horas</td>
+                <td>Noções básicas de python e matemática linear</td>
+                <td><a href="https://www.freecodecamp.org/learn/machine-learning-with-python/">Clique aqui</a></td>
+                <td class="imagem_3"><figure><img src="/img/datascience.jpg" alt=""></figure></td>
+            </tr>
+        </tbody>
+        </table>
+
+    </table>
+</body>
+</html>
